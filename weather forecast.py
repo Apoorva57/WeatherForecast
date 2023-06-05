@@ -30,7 +30,7 @@ def parse_weather(weather_data):
     print(f"Weather description: {description}")
     print(f"Temperature: {temp}°C")
     print(f"Feels like: {feels_like}°C")
-    print(f"Humidity: {hmdt}%")
+    print(f"Humidity: {humidity}%")
     print(f"Wind speed: {wind_speed} km/h")
 
 if __name__ == "__main__":
