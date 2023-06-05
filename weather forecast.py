@@ -21,7 +21,7 @@ def parse_weather(weather_data):
     temp = weather_data["main"]["temp"]
     feels_like = weather_data["main"]["feels_like"]
     description = weather_data["weather"][0]["description"]
-    hmdt = weather_data['main']['humidity']
+    humidity = weather_data['main']['humidity']
     wind_speed = weather_data['wind']['speed']
 
 
